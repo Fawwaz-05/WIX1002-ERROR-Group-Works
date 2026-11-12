@@ -8,7 +8,7 @@ import java.util.*;
  *
  * @author fawwa
  */
-public class V1Q3 {
+public class Q3 {
 
     public static void main(String[] args) {
         
