@@ -8,6 +8,7 @@
  * @author Abah
  */
 
+package viva1;
 import java.util.*;
 
 public class Q2 {
