@@ -57,8 +57,7 @@ public class V1Q5 {
             
             }
             System.out.println();
-            scanner.close();
         }
-        
+        scanner.close();
     }
 }
