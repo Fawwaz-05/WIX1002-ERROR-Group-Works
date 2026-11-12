@@ -45,10 +45,13 @@ public class V1Q1 {
             } else {
                 for(int j=0;j<characters.length();j++){
                     if(phrase.charAt(i) == characters.charAt(j)){
-                        temp = Character.toString(characters.charAt((j+2) % 4));
+                        temp = Character.toString(characters.charAt((j+2) % 5));
                         break;
+                    } else{
+                        temp = Character.toString(phrase.charAt(i));
                     }
                 }
+                
             }
 
             password += temp;
@@ -62,7 +65,7 @@ public class V1Q1 {
         }
         String reversedPassword = String.valueOf(passChar);
 
-        System.out.println("Reverse key: " + key);
+        System.out.println("Shift Key: " + key);
         System.out.println("Before Reversal: " + password);
         System.out.println("Encoded Password: " + reversedPassword);
         sc.close();
