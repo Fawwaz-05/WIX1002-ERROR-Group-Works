@@ -2,13 +2,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
 
-package com.mycompany.viva1;
+package viva1;
 import java.util.*;
 /**
  *
  * @author fawwa
  */
-public class Viva1 {
+public class V1Q3 {
 
     public static void main(String[] args) {
         
@@ -245,6 +245,6 @@ public class Viva1 {
         System.out.printf("TOTAL SHIPPING FEE : RM %.2f" , totalfee);
         System.out.println("\nHEAVIEST CHARGEABLE WEIGHT : " + hw + " kg ");
         
-        
+        in.close();
     }
 }
