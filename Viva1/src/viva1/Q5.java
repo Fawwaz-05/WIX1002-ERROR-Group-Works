@@ -8,7 +8,7 @@ import java.util.*;
  *
  * @author User
  */
-public class V1Q5 {
+public class Q5 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
