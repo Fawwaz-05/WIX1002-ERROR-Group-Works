@@ -45,9 +45,8 @@ public class Q2 {
                     M = in.nextInt();
                     
                     // Check input validity
-                    if (M>=1 && M<=36) {
-                        break;
-                    } else System.out.println("Invalid month");
+                    if (M>=1 && M<=36) break;
+                    else System.out.println("Invalid month");
                 } while (true);
                 break;
             default: 
@@ -105,5 +104,6 @@ public class Q2 {
         System.out.printf("Total Late Fees: RM %.2f\n", totalLateFees);
         System.out.printf("Total Amount Paid: RM %.2f\n", totalAmountPaid);
         System.out.println("Months Raised to Minimum Payment: " + monthsRaised);
+        if (B != 0) System.out.println("Debt not cleared after 36 months");
     }
 }
