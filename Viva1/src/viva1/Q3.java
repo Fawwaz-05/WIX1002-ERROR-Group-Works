@@ -13,12 +13,11 @@ public class Q3 {
     public static void main(String[] args) {
         
         Scanner in = new Scanner(System.in);
-        boolean exit = false ;
         int parcount = 0 ;
         double totalfee = 0 ;
         int hw = 0;
         
-        while(exit == false){
+        while(true){
             System.out.println("ENTER DESTINATION POSTCODE (OR \"EXIT\" TO STOP ) : ");
             String pc = in.nextLine();
             String ex = "exit" ;
@@ -114,7 +113,7 @@ public class Q3 {
             
             
            
-            float kgw = 0 ;
+            double kgw = 0 ;
             
         do {
             System.out.print("ENTER PARCEL WEIGHT(G) : ");
@@ -176,7 +175,7 @@ public class Q3 {
 
         } while(true);
         
-       float temptotal;
+       double temptotal;
        
         if ( kgw >= sum ){
             temptotal = kgw ;
